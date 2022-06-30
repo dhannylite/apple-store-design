@@ -1,0 +1,98 @@
+@media (max-width: 84em) {
+    html {
+        font-size: 56.25%;
+    }
+    
+    /* .overview-aside {
+        gap: 6.2rem;
+        justify-content: flex-start;
+    } */
+}
+/* Tablet */
+@media(max-width:74em) {
+    html {
+        font-size: 52.25%;
+    }
+    
+}
+
+@media(max-width:67em) {
+    .grid {
+        grid-template-columns: 25fr 85fr;
+    }
+    aside {
+        justify-content: space-between;
+    }
+    .overview-section {
+        grid-template-columns: 1fr;
+    }
+
+    .overview-aside {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        align-items: start;
+        gap: 4.4rem;
+    }
+
+    .show-all:link, .show-all:visited {
+        display: block;
+    }
+
+    .overview-aside-top {
+        margin-bottom: 6.4rem;
+    }
+
+    .card-text {
+        font-size: 2.6rem;
+    }
+    
+}
+
+@media(max-width:56em) { 
+    html {
+        font-size: 37.5%;
+    }
+}
+
+@media(max-width:44em) {
+    .overview-aside {
+        grid-template-columns: 1fr;
+        gap: 4.4rem;
+    }
+
+    .aside-card {
+        display: none;
+    }
+}
+
+@media(max-width:44em) {
+    .grid-3-col {
+        grid-template-columns: 1fr;
+    }
+    .card-box {
+        width: 80%;
+    }
+
+    .card-box img {
+        height: 30rem;
+    }
+
+    .card-inner-box p{
+        font-size: 2.4rem;
+    }
+
+    .card-last-box {
+        font-size: 1.8rem;
+    }
+
+    .card-last-box span {
+        font-size: 1.8rem;
+    }
+
+    .top-games-btn {
+        display: none;
+    }
+}
+
+
+

@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="App store clone design">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Merriweather:wght@400;700&family=Rubik:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Queries.css">
+    <title>App Store &ndash; download</title>
+</head>
+<body>
+    <div class="grid">
+        <aside>
+            <div>
+            <div class="head">
+                <img src="img/app-store.png" alt="apple-store logo">
+                <!-- <ion-icon class="head-icon" name="logo-apple-appstore"></ion-icon> -->
+                <h1>AppStore</h1>
+            </div>
+            <ul class="aside-lists">
+                <li class="aside-list open">
+                    <ion-icon name="grid-outline"></ion-icon>
+                    <a class="aside-link" href="#">
+                    Overview
+                </a></li>
+                <li class="aside-list">
+                    <ion-icon name="game-controller-outline"></ion-icon>
+                    <a class="aside-link" href="#">
+                    Arcade
+                </a></li>
+                <li class="aside-list">
+                    <ion-icon name="stats-chart-outline"></ion-icon>
+                    <a class="aside-link" href="#">
+                    Chart
+                </a></li>
+                <li class="aside-list">
+                    <ion-icon name="cloud-upload-outline"></ion-icon>
+                    <a class="aside-link" href="#">
+                    Upadate
+                </a></li>
+                <li class="aside-list">
+                    <ion-icon name="settings-outline"></ion-icon>
+                    <a class="aside-link" href="#">
+                    Settings
+                </a></li>
+            </ul>
+        </div>
+        <div>
+            <div class="aside-card">
+                <ion-icon class="aside-card-icon" name="close-outline"></ion-icon>
+                <h2 class="card-text">
+                    1 Month Apple Music subscribe for Free
+                </h2>
+                <a href="#">Get Subscribe</a>
+            </div>
+            <div class="logout">
+                <ion-icon class="logout-icon" name="log-out-outline"></ion-icon>
+                <a href="#">Logout</a>
+            </div>
+        </div>
+    </aside>
+        <main>
+            <header class="main-header">
+                <h1>Overview</h1>
+                <div class="main-box">
+                    <ion-icon class="main-box-icon" name="notifications-outline"></ion-icon>
+                    <form action="#">
+                        <input class="main-box-input" type="search" >
+                    </form>
+                    <img src="img/ben.jpg" alt="a picture of ben">
+                </div>
+            </header>
+            <section class="overview-section">
+                <div class="overview-box">
+                    <div class="overview-img-box">
+                        <img src="img/overview-img.jpg" alt="a guy playing pubg">
+                        <div class="overview-img-box-details">
+                            <div>
+                                <h4>Graphics and Design</h4>
+                                <h2>Vectornator: Design software</h2>
+                                <p>Craete designs, interfaces and beautiful illustrations with this tool</p>
+                            </div>
+                            <div class="btn-box">
+                                <a href="#" class="btn">Download</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="categories">
+                        <div class="categories-head">
+                            <h2>Categories</h2>
+                            <a href="#">show all</a>
+                        </div>
+                        <div class="category-lists">
+                            <div class="category-list">
+                                <ion-icon class="category-icon" name="game-controller-outline"></ion-icon>
+                                <span>Games</span>
+                            </div>
+                            <div class="category-list">
+                                <ion-icon class="category-icon" name="color-palette-outline"></ion-icon>
+                                <span>Creation</span>
+                            </div>
+                            <div class="category-list">
+                                <ion-icon class="category-icon" name="hammer-outline"></ion-icon>
+                                <span>Development</span>
+                            </div>
+                            <div class="category-list">
+                                <ion-icon class="category-icon" name="clipboard-outline"></ion-icon>
+                                <span>Work</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="top-games">
+                        <div class="top-games-head">
+                            <h2>Top Games & Apps</h2>
+                            <a href="#">Show all</a>
+                        </div>
+                        <div class="grid-3-col">
+                            <figure class="card-box">
+                                <img src="img/creation.jpg" alt="a woman painting">
+                                <div class="card-inner-box">
+                                    <p>Tayasui sketches</p>
+                                    <div class="card-last-box">
+                                        <span>Creation</span>
+                                        <a href="#">Download</a>
+                                    </div>
+                                </div>
+                            </figure>
+                            <figure class="card-box">
+                                <img src="img/mario.jpg" alt="mario game">
+                                <div class="card-inner-box">
+                                    <p>Mario</p>
+                                    <div class="card-last-box">
+                                        <span>Adventure game</span>
+                                        <a href="#">$12.00</a>
+                                    </div>
+                                </div>
+                            </figure>
+                            <figure class="card-box">
+                                <img src="img/laptop.jpg" alt="a laptop">
+                                <div class="card-inner-box">
+                                    <p>swift playground</p>
+                                    <div class="card-last-box">
+                                        <span>Development</span>
+                                        <a href="#">$25.00</a>
+                                    </div>
+                                </div>
+                            </figure>
+                        </div>
+                        <button class="top-games-btn"><ion-icon class="top-games-btn-icon" name="chevron-forward-outline"></ion-icon></button>
+                    </div>
+                </div>
+                <div class="overview-aside">
+                    <div>
+                    <div class="overview-aside-top">
+                        <div class="trending-aside-top">
+                            <h2>Trending</h2>
+                            <a href="#">show all</a>
+                        </div>
+                        <ul class="trending-lists">
+                            <li>
+                                <img src="img/youtube.png" alt="youtube logo">
+                                <div class="trending-details">
+                                    <p>Youtube</p>
+                                    <span>social network</span>
+                                </div>
+                                <a class="trending-link" href="#">Download</a>
+                            </li>
+                            <li>
+                                <img src="img/whatsapp.png" alt="whatsapp logo">
+                                <div class="trending-details">
+                                    <p>Whatsapp Desktop</p>
+                                    <span>social network</span>
+                                    
+                                </div>
+                                <a class="trending-link" href="#">Download</a>
+                            </li>
+                            <li>
+                                <img src="img/instagram.png" alt="instagram logo">
+                                <div class="trending-details">
+                                    <p>Instagram</p>
+                                    <span>social network</span>
+                                </div>
+                                <a class="trending-link" href="#">Download</a>
+                            </li>
+                            <li>
+                                <img src="img/facebook.png" alt="facebook logo">
+                                <div class="trending-details">
+                                    <p>Facebook</p>
+                                    <span>social network</span>
+                                </div>
+                                <a class="trending-link" href="#">Download</a>
+                            </li>
+                        </ul>
+                    </div>
+                        <a href="#" class="show-all">Show all &rarr;</a>
+                    </div>
+                    <div class="game-box">
+                        <img src="img/shot-03.jpg" alt="game">
+                        <div class="game-inner-box">
+                            <p class="game-name">Shot Team</p>
+                            <p class="game-desc">Action Game</p>
+                            <a class="game-link" href="#">$21.50</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
